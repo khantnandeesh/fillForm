@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/signup" element={<GarbaCommitteeForm />} />
+          <Route path="/" element={<GarbaCommitteeForm />} />
           {/* // <Route path="/*" element={<Signin />} />
           // <Route path="/blog/:id" element={<Blog />} /> */}
         </Routes>

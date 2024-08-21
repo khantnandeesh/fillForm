@@ -54,7 +54,7 @@ const GarbaCommitteeForm = () => {
               type="text"
               id="registrationNumber"
               name="registrationNumber"
-              value={formData.registrationNumber}
+              value={formData.regestrationNumber}
               onChange={handleChange}
               required
             />

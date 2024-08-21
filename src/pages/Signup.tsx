@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import axios from 'axios';
 
 const GarbaCommitteeForm = () => {
@@ -22,6 +22,7 @@ const GarbaCommitteeForm = () => {
       console.log(formData);
       
       const response = await axios.post('https://backend.nandeeshkhant3205.workers.dev/api/v1/user/signup', formData);
+         console.log(response);
       alert(`Form submitted successfully !`);
       // Handle success (e.g., show a success message, clear the form, etc.)
     } catch (error) {
